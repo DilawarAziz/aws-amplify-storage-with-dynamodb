@@ -1,0 +1,116 @@
+@media only screen and (min-width: 0px) and (max-width: 1520px) {
+  .child1 {
+    width: 50%;
+  }
+  .child1-text {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 960px) {
+  .hero-child {
+    flex-direction: column;
+  }
+  .child1 {
+    width: 100%;
+  }
+  .child2 {
+    width: 70%;
+  }
+  .child1-text {
+    width: 100%;
+  }
+  .child2 img {
+    width: 100%;
+  }
+  .benefit-child1 {
+    flex-direction: column;
+  }
+  .child1-text {
+    text-align: center;
+  }
+  .benefit-child1 div {
+    width: 100%;
+  }
+  .benefit-child2 {
+    flex-direction: column;
+  }
+  .benefit-child2 div {
+    width: 100%;
+    text-align: center;
+  }
+  .benefit-child2 div p {
+    justify-content: center;
+  }
+  .footer-main {
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .child1 h1 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 45px;
+  }
+  .child1 h2 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .input-pt {
+    width: 90%;
+  }
+  .child1-img-pt {
+    flex-direction: column;
+  }
+  .child1-img-pt img {
+    margin: 20px;
+  }
+  .child1 {
+    height: 450px;
+  }
+  .child1-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .child1-text p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .benefit-child2 div h1 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .benefit-child2 div p h3 {
+    font-size: 14px;
+    height: 17px;
+    width: 17px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .benefit-child2 div p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .foot-child2 a {
+    font-size: 12px;
+    margin: 0px 3px;
+  }
+  .foot-child1 img {
+    width: 129px;
+    height: 40px;
+  }
+  .menu-icon {
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+  }
+  .board-header div {
+    display: none;
+  }
+}

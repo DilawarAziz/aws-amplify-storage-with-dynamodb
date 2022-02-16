@@ -1,0 +1,10 @@
+{
+  "resourceName": "petsdb",
+  "tableName": "petsdb",
+  "partitionKey": {
+    "fieldName": "name",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
